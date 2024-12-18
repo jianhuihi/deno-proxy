@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "lib": ["deno.ns", "deno.window"]
+    },
+    "tasks": {
+      "deploy": "deno run --allow-net --allow-env index.ts"
+    }
+}
